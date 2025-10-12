@@ -16,5 +16,6 @@ if status:
 else:
     print("Device Status is False")
 result = round(cost,2)
+
 print(f"Total cost: {result}")
 print(f"Status tracking \ndevice name: {name}, consumption: {conv_consumption}, cost: {cost}, status: {status}")
