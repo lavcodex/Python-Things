@@ -13,8 +13,7 @@ conv_shares = float(shares)
 conv_previous = float(previous)
 
 price_change = conv_current - conv_previous
+persentage = price_change % 100
 portfolio_value = conv_shares * conv_current
-if conv_status == price_change:
-    print("True")
-else:
-    print("False")
+if_gaining = price_change >0
+print(f"Financial Data\nstock symbol: {symbol}\ncurrent price: {conv_current}\nprevious_close: {conv_previous}\nvolume: {conv_volume}\nmarket open: {conv_status}\nuser shares: {shares}\nportfolio value: {portfolio_value}")
