@@ -1,4 +1,4 @@
-# Create a countdown from 10 to 1
+#Create a countdown from 10 to 1
 
 counter = 10
 
