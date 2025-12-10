@@ -3,7 +3,7 @@
 products = ["soap","shampoo","oil","sugar","rice"]
 current_stock = [10,15,16,20,5]
 minimum_stock = [5,9,20,15,13]
-restock_list = []
+restock_list = [ ]
 
 for i in range(len(products)):
     if current_stock[i]<minimum_stock[i]:
